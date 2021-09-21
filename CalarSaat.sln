@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalarSaat.Data", "CalarSaat.Data\CalarSaat.Data.csproj", "{5DDE48CD-D2DC-4117-92D4-45247FC92943}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalarSaat.UI", "CalarSaat.UI\CalarSaat.UI.csproj", "{3541E075-49E7-4819-8E39-8A65F8EDD930}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5DDE48CD-D2DC-4117-92D4-45247FC92943}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DDE48CD-D2DC-4117-92D4-45247FC92943}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DDE48CD-D2DC-4117-92D4-45247FC92943}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DDE48CD-D2DC-4117-92D4-45247FC92943}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3541E075-49E7-4819-8E39-8A65F8EDD930}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3541E075-49E7-4819-8E39-8A65F8EDD930}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3541E075-49E7-4819-8E39-8A65F8EDD930}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3541E075-49E7-4819-8E39-8A65F8EDD930}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {95016E84-778F-4584-AB46-89F84B4B2FA5}
+	EndGlobalSection
+EndGlobal
