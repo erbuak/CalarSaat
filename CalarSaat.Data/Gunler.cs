@@ -8,12 +8,6 @@ namespace CalarSaat.Data
 {
     public enum Gunler
     {
-        Pa = 0,
-        Pz = 1,
-        Sa = 2,
-        Ça = 3,
-        Pe = 4,
-        Cu = 5,
-        Ct = 6
+        Pz, Sa, Ça, Pe, Cu, Ct, Pa
     }
 }

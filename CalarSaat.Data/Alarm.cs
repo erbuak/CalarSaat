@@ -1,9 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Text.RegularExpressions;
-using System.Threading.Tasks;
 
 namespace CalarSaat.Data
 {
@@ -24,9 +21,15 @@ namespace CalarSaat.Data
         }
 
         public string Id { get; }
+        public string AlarmAdi { get; set; }
         public bool AktifMi { get; set; }
-        public DateTime OlusturulmaTarihi { get; }
+        public bool TekrarlıMı { get; set; }
+        public DateTime OlusturulmaTarihi { get; } = DateTime.Now;
+        public List<int> TekrarGunleri { get; set; } = new List<int>();
         public TimeSpan AlarmZamani { get; set; }
+        public string AlarmSesAdi { get; set; } = "Alarm Dediğin Böyle Olur";
+        public string AlarmSesYolu { get; set; } = AppDomain.CurrentDomain.BaseDirectory + @"Resources\alarm_dedigin_boyle_olur.wav";
+        public Dictionary<string,string> AlarmSes { get; set; }
         public bool AlarmYoutubeMu { get; set; } = false;
         public string VideoId { get; set; }
 
