@@ -52,7 +52,7 @@ namespace CalarSaat.UI
             this.btnAlarmEkle.TabIndex = 2;
             this.btnAlarmEkle.Text = "Alarm Ekle";
             this.btnAlarmEkle.UseVisualStyleBackColor = true;
-            this.btnAlarmEkle.Click += new System.EventHandler(this.btnAlarmEkle_Click);
+            this.btnAlarmEkle.Click += new System.EventHandler(this.BtnAlarmEkle_Click);
             // 
             // tmrZaman
             // 

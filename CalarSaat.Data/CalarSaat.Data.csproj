@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Alarm.cs" />
+    <Compile Include="AlarmSesi.cs" />
     <Compile Include="DbContext.cs" />
     <Compile Include="Gunler.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

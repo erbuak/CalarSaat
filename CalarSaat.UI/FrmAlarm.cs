@@ -53,7 +53,7 @@ namespace CalarSaat.UI
         private void HazirAlarmCal()
         {
             sp = new SoundPlayer();
-            sp.SoundLocation = alarm.AlarmSesYolu;
+            sp.SoundLocation = alarm.AlarmSes.Value;
             sp.PlayLooping();
         }
 

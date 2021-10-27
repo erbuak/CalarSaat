@@ -27,9 +27,7 @@ namespace CalarSaat.Data
         public DateTime OlusturulmaTarihi { get; } = DateTime.Now;
         public List<int> TekrarGunleri { get; set; } = new List<int>();
         public TimeSpan AlarmZamani { get; set; }
-        public string AlarmSesAdi { get; set; } = "Alarm Dediğin Böyle Olur";
-        public string AlarmSesYolu { get; set; } = AppDomain.CurrentDomain.BaseDirectory + @"Resources\alarm_dedigin_boyle_olur.wav";
-        public Dictionary<string,string> AlarmSes { get; set; }
+        public KeyValuePair<string, string> AlarmSes { get; set; } = new KeyValuePair<string, string>("Alarm Dediğin Böyle Olur", AppDomain.CurrentDomain.BaseDirectory + @"Resources\alarm_dedigin_boyle_olur.wav");
         public bool AlarmYoutubeMu { get; set; } = false;
         public string VideoId { get; set; }
 
@@ -38,6 +36,7 @@ namespace CalarSaat.Data
             var youtubeLinkMatch = new Regex(@"http(?:s?)://(?:www\.)?youtu(?:be\.com/watch\?v=|\.be/)([\w\-]+)(&(amp;)?[\w\?=]*)?").Match(youtubeLink);
             return youtubeLinkMatch.Success ? youtubeLinkMatch.Groups[1].Value : string.Empty;
         }
+
     }
 }
 
